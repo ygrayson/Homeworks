@@ -1,0 +1,46 @@
+CREATE BIT 5 string string bool string int people gender good/bad bf_gf ranking
+CREATE UMich 5 string string string string double people college gender major awesomeness_score
+INSERT INTO BIT 10 ROWS
+yaoxinjie girl false xuzitong 10
+yinqianbo boy true none 43
+xingyuchen boy true none 3
+qiaozhuoran mutual true himself 1
+tangyongjia boy true none 12
+wangying girl true none 15
+shenchen boy false caikeyu 30
+chenyidong boy true gaoyaxin 20
+wangshuyang girl false maybe 2
+lizeyu boy true himself 6
+INSERT INTO UMich 10 ROWS
+grayson LSA male cogsci 100
+nick LSA male cogsci 99.99
+ross LSA boy physics 90
+justin LSA boy comsci 90
+julie LSA girl math 99
+nick LSA boy cogsci 80
+rick LSA male cogsci 99
+laird Engineering male comsci 90
+alex Engineering male me 90
+trevor Engineering male comsci 90
+PRINT FROM UMich 5 people college gender major awesomeness_score WHERE gender = boy
+PRINT FROM BIT 2 people bf_gf WHERE good/bad < true
+PRINT FROM BIT 2 people bf_gf WHERE good/bad > true
+JOIN UMich and UMich WHERE gender = gender AND PRINT 5 people 1 people 2 major 1 major 2 awesomeness_score 2
+GENERATE FOR BIT hash INDEX ON gender
+DELETE FROM Umich WHERE awesomeness_score < 95
+DELETE FROM BIT WHERE bf_gf < kk
+INSERT INTO BIT 2 ROWS
+gaoyaxin girl false chenyidong 30
+wangshihao boy true qianhuizi 20
+PRINT FROM BIT 1 people ALL
+PRINT FROM BIT 2 people bf_gf WHERE gender = girl
+PRINT FROM BIT 2 people bf_gf WHERE ranking > 10
+PRINT FROM BIT 2 people bf_gf WHERE good/bad < true
+JOIN UMich and UMich WHERE gender = gender AND PRINT 5 people 1 people 2 major 1 major 2 awesomeness_score 2
+GENERATE FOR BIT bst INDEX ON gender
+PRINT FROM BIT 1 people ALL
+PRINT FROM BIT 2 people bf_gf WHERE gender = girl
+PRINT FROM BIT 2 people bf_gf WHERE ranking > 10
+PRINT FROM BIT 2 people bf_gf WHERE good/bad < true
+JOIN UMich and UMich WHERE gender = gender AND PRINT 5 people 1 people 2 major 1 major 2 awesomeness_score 2
+QUIT

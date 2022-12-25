@@ -1,0 +1,40 @@
+% % New table BIT with column(s) people gender good/bad bf_gf ranking created
+% New table UMacao with column(s) people college gender major good_bad created
+% New table UMich with column(s) people college gender major awesomeness_score created
+% % Added 10 rows to BIT from position 0 to 9
+% Added 5 rows to UMacao from position 0 to 4
+% Added 10 rows to UMich from position 0 to 9
+% % Error: UMaca does not name a table in the database
+% Error: Uich does not name a table in the database
+% people bf_gf 
+yinqianbo none 
+tangyongjia none 
+wangying none 
+shenchen caikeyu 
+chenyidong gaoyaxin 
+Printed 5 matching rows from BIT
+% Error: bf_f does not name a column in BIT
+% people people major major good_bad awesomeness_score 
+ade ross math physics false 90 
+ade justin math comsci false 90 
+ade nick math cogsci false 80 
+xiaoxian ross business physics true 90 
+xiaoxian justin business comsci true 90 
+xiaoxian nick business cogsci true 80 
+yangyi grayson fuckaround cogsci true 100 
+yangyi nick fuckaround cogsci true 99.99 
+yangyi rick fuckaround cogsci true 99 
+yangyi laird fuckaround comsci true 90 
+yangyi alex fuckaround me true 90 
+yangyi trevor fuckaround comsci true 90 
+karen julie psychology math true 99 
+Printed 13 rows from joining UMacao to UMich
+% % Created hash index for table BIT on column gender
+% Added 2 rows to BIT from position 10 to 11
+% Error: geder does not name a column in BIT
+% people bf_gf 
+Printed 0 matching rows from BIT
+% people bf_gf 
+qiaozhuoran himself 
+Printed 1 matching rows from BIT
+% Thanks for being silly!

@@ -1,0 +1,5 @@
+1. GENERATE
+- one [Darden] = 0 and [Darden] = 4, 2 rows having same KEY
+
+2. PRINT
+- bst index will change the game, use the binary tree functions to do criterion

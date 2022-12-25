@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/eecs281_project04/.vs/eecs281_project04/v15
+/.vs/eecs281_project04/v15
+/.vs

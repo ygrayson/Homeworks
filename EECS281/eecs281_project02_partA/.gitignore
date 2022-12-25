@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/eecs281_project02_partA/.vs/eecs281_project02_partA/v15/ipch/AutoPCH
+/eecs281_project02_partA/.vs/eecs281_project02_partA/v15
+/eecs281_project02_partA/Debug
+/eecs281_project02_partA/eecs281_project02_partA/Debug/eecs281_.00B454EE.tlog
+/eecs281_project02_partA/eecs281_project02_partA/Debug

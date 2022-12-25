@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="I/O Files">
+      <UniqueIdentifier>{5f28dceb-bdd6-4cee-b91e-db1398c4240a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4997ac36-b80b-41b5-966b-52fe04673fbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P2random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineEscape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P2random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test-1-vms.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="test-2-vms.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="test-3-vms.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="test-4-vms.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="error.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="spec-output-v.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="spec-output-vms.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="spec-M.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="spec-R.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-large-M-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-large-m-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-large-R-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-large-s-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-large-v-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-small-M-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-small-m-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-small-R-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-small-s-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="normal-small-v-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-large-M-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-large-m-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-large-R-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-large-s-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-large-v-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-small-M-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-small-m-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-small-R-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-small-s-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="no-tnt-small-v-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-5-vms.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="Num4-test-correct.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

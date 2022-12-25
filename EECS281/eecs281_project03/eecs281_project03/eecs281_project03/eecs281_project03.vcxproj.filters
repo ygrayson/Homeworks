@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Testing Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Rescource Files">
+      <UniqueIdentifier>{8789b35f-fe47-4c13-8614-642d9ea4963b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I/O Files">
+      <UniqueIdentifier>{4c7ce6c9-ada2-4d4c-803a-10f48d68c1b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TableEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="silly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TableEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="error.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="test-2-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="spec_output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_1_input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_1_output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_2_input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_2_output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_3_input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="checkpoint_3_output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="spec_input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="long-quiet-input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="long-quiet-output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="short-input.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="short-output.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="test-10-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="temp1.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="temp2.txt">
+      <Filter>I/O Files</Filter>
+    </Text>
+    <Text Include="test-11-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-3-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-4-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-5-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-6-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-12-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-1-table-commands.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Rescource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

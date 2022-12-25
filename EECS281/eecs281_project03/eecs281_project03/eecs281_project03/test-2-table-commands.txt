@@ -1,0 +1,48 @@
+# create 3 tables
+CREATE BIT 5 string string bool string int people gender good/bad bf_gf ranking
+CREATE UMacao 5 string string string string bool people college gender major good_bad
+CREATE UMich 5 string string string string double people college gender major awesomeness_score
+# insert rows
+INSERT INTO BIT 10 ROWS
+yaoxinjie girl false xuzitong 10
+yinqianbo boy true none 43
+xingyuchen boy true none 3
+qiaozhuoran mutual true himself 1
+tangyongjia boy true none 12
+wangying girl true none 15
+shenchen boy false caikeyu 30
+chenyidong boy true gaoyaxin 20
+wangshuyang girl false maybe 2
+lizeyu boy true himself 6
+INSERT INTO UMacao 5 ROWS
+ade FST boy math false
+xiaoxian FBA boy business true
+caixia LCWC female sociology true
+yangyi LCWC male fuckaround true
+karen FSS girl psychology true
+INSERT INTO UMich 10 ROWS
+grayson LSA male cogsci 100
+nick LSA male cogsci 99.99
+ross LSA boy physics 90
+justin LSA boy comsci 90
+julie LSA girl math 99
+nick LSA boy cogsci 80
+rick LSA male cogsci 99
+laird Engineering male comsci 90
+alex Engineering male me 90
+trevor Engineering male comsci 90
+# basic print and join-------
+PRINT FROM UMacao 3 people college major ALL
+PRINT FROM UMich 5 people college gender major awesomeness_score WHERE gender = boy
+PRINT FROM BIT 2 people bf_gf WHERE ranking > 10
+PRINT FROM BIT 2 people bf_gf WHERE ranking = 1
+JOIN UMacao and UMich WHERE gender = gender AND PRINT 6 people 1 people 2 major 1 major 2 good_bad 1 awesomeness_score 2
+# generate--------
+GENERATE FOR BIT hash INDEX ON gender
+INSERT INTO BIT 2 ROWS
+gaoyaxin girl false chenyidong 30
+wangshihao boy true qianhuizi 20
+PRINT FROM BIT 2 people bf_gf WHERE gender = girl
+PRINT FROM BIT 2 people bf_gf WHERE ranking > 10
+PRINT FROM BIT 2 people bf_gf WHERE ranking = 1
+QUIT

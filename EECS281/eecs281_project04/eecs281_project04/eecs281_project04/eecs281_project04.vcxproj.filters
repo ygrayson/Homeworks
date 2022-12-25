@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Testing Files">
+      <UniqueIdentifier>{354b9798-6945-4542-87c7-78d47ddb8cb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Samples-Windows\README.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-ab.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-ab-FASTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-ab-MST-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-c.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-c-FASTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-c-MST-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-c-OPTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-d.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-d-FASTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-d-MST-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-d-OPTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-e.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-e-FASTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-e-MST-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="Samples-Windows\sample-e-OPTTSP-out.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="error.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-1-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-2-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-6-OPTTSP.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-8-OPTTSP.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-9-OPTTSP.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-3-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-4-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-5-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+    <Text Include="test-7-MST.txt">
+      <Filter>Testing Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+% % New table BIT with column(s) people gender good/bad bf_gf ranking created
+% New table UMacao with column(s) people college gender major good_bad created
+% New table UMich with column(s) people college gender major awesomeness_score created
+% Error: BI does not name a table in the database
+% Added 5 rows to UMacao from position 0 to 4
+% Added 10 rows to UMich from position 0 to 9
+% Error: awesomess_score does not name a column in UMich
+% people bf_gf 
+Printed 0 matching rows from BIT
+% Error: rnking does not name a column in BIT
+% Error: gnder does not name a colomn in UMacao
+% % Error: ender does not name a column in BIT
+% Error: BT does not name a table in the database
+% Added 2 rows to BIT from position 0 to 1
+% Error: BT does not name a table in the database
+% people bf_gf 
+gaoyaxin chenyidong 
+wangshihao qianhuizi 
+Printed 2 matching rows from BIT
+% people bf_gf 
+Printed 0 matching rows from BIT
+% Error: BI does not name a table in the database
+% Table BIT deleted
+% Thanks for being silly!
